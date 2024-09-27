@@ -1,0 +1,326 @@
+
+Pooja@DESKTOP-MM2CNIT MINGW64 ~
+$ dir
+3D\ Objects            Links                                                                                         OneDrive      Videos
+AppData                Local\ Settings                                                                               Oracle        ntuser.dat.LOG1
+Application\ Data      MicrosoftEdgeBackups                                                                          Pictures      ntuser.dat.LOG2
+Contacts               Music                                                                                         PrintHood     ntuser.ini
+Cookies                My\ Documents                                                                                 Recent        openvpn-connect.json
+Desktop                NTUSER.DAT                                                                                    Saved\ Games  ovpntray.log
+Documents              NTUSER.DAT{bdd49131-b424-11ed-ba26-b1a156738a50}.TM.blf                                       Searches      source
+Downloads              NTUSER.DAT{bdd49131-b424-11ed-ba26-b1a156738a50}.TMContainer00000000000000000001.regtrans-ms  SendTo
+Favorites              NTUSER.DAT{bdd49131-b424-11ed-ba26-b1a156738a50}.TMContainer00000000000000000002.regtrans-ms  Start\ Menu
+IntelGraphicsProfiles  NetHood                                                                                       Templates
+
+Pooja@DESKTOP-MM2CNIT MINGW64 ~
+$ cd c:/
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c
+$ ls
+'$Recycle.Bin'/   Apps/                      Downloads/          Nakshu+Pooja/  'Program Files'/         ShareMarket/                  backup/        swapfile.sys
+'$SysReset'/      Coco/                      Drivers/            OneDriveTemp/  'Program Files (x86)'/  'System Volume Information'/   dell.sdr
+ ADE/             Config.Msi/                DumpStack.log       Oracle/         ProgramData/            TripToMaldives/               hiberfil.sys
+ AWSDevOpsLab/   'DOT NET CLASS SESSIONS'/   DumpStack.log.tmp   Oracle_home/    Recovery/               Users/                        msdia80.dll*
+ AWSKeys/         Dell/                      Intel/              PerfLogs/       SBIHomeLoanDoc/         Windows/                      oraclexe/
+ Antargyan/      'Documents and Settings'@   JDeveloper/         Photos/         SQLServer2017Media/     app/                          pagefile.sys
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c
+$ cd AWSDevOpsLab/
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab
+$ ls
+GitLabs/
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab
+$ cd GitLabs/
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs
+$ ls
+ProjectV1/
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs
+$ dir
+ProjectV1
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs
+$ ls
+ProjectV1/
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs
+$ cd ProjectV1/
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1
+$ ls
+Five.java.txt  Four.java.txt  One.java.txt  Three.java.txt  Two.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1
+$ ls -lrt
+total 5
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Two.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Three.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 One.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Four.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Five.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1
+$ ls -lrt
+total 5
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Two.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Three.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 One.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Four.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Five.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1
+$ ls -ltr
+total 5
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Two.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Three.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 One.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Four.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Five.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1
+$
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1
+$
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1
+$ git init
+Initialized empty Git repository in C:/AWSDevOpsLab/GitLabs/ProjectV1/.git/
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ ls
+Five.java.txt  Four.java.txt  One.java.txt  Three.java.txt  Two.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ ls -ltr
+total 5
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Two.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Three.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 One.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Four.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Five.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ ls -lrt
+total 5
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Two.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Three.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 One.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Four.java.txt
+-rw-r--r-- 1 Pooja 197121 97 Sep 25 06:58 Five.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ ls
+Five.java.txt  Four.java.txt  One.java.txt  Three.java.txt  Two.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Five.java.txt
+        Four.java.txt
+        One.java.txt
+        Three.java.txt
+        Two.java.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git add One.java.txt Two.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   One.java.txt
+        new file:   Two.java.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Five.java.txt
+        Four.java.txt
+        Three.java.txt
+
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git commit -m "First Commit" Five.java.txt Two.java.txt
+error: pathspec 'Five.java.txt' did not match any file(s) known to git
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ ls
+Five.java.txt  Four.java.txt  One.java.txt  Three.java.txt  Two.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git commit -m "First Commit" ^C
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git commit -m "First Commit" Five.java.txt Two.java.txt
+error: pathspec 'Five.java.txt' did not match any file(s) known to git
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git commit -m "First Commit" One.java.txt Two.java.txt
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Pooja@DESKTOP-MM2CNIT.(none)')
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$
+
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git config --global user.email "zyx@gmail.com"
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git config --global user.name zyx
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   One.java.txt
+        new file:   Two.java.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Five.java.txt
+        Four.java.txt
+        Three.java.txt
+
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git commit -m "First Commit" One.java.txt Two.java.txt
+[master (root-commit) 2723428] First Commit
+ 2 files changed, 14 insertions(+)
+ create mode 100644 One.java.txt
+ create mode 100644 Two.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git logs
+git: 'logs' is not a git command. See 'git --help'.
+
+The most similar command is
+        log
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git log
+commit 27234284cc680cc7dfb3d8d91b84ea2a5e6bef60 (HEAD -> master)
+Author: zyx <zyx@gmail.com>
+Date:   Wed Sep 25 07:10:54 2024 +0530
+
+    First Commit
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git log --oneline
+2723428 (HEAD -> master) First Commit
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ GIT INIT
+git: 'INIT' is not a git command. See 'git --help'.
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git Init
+git: 'Init' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ ls
+Five.java.txt  Four.java.txt  One.java.txt  Three.java.txt  Two.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Five.java.txt
+        Four.java.txt
+        Three.java.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git add *.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Five.java.txt
+        new file:   Four.java.txt
+        new file:   Three.java.txt
+
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git commit -m "Second Commit" *.txt
+[master d0d128d] Second Commit
+ 3 files changed, 21 insertions(+)
+ create mode 100644 Five.java.txt
+ create mode 100644 Four.java.txt
+ create mode 100644 Three.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git log
+commit d0d128dd9bb7e2a151ee44a115bc41dfc970bd58 (HEAD -> master)
+Author: zyx <zyx@gmail.com>
+Date:   Wed Sep 25 07:25:28 2024 +0530
+
+    Second Commit
+
+commit 27234284cc680cc7dfb3d8d91b84ea2a5e6bef60
+Author: zyx <zyx@gmail.com>
+Date:   Wed Sep 25 07:10:54 2024 +0530
+
+    First Commit
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ git log --oneline
+d0d128d (HEAD -> master) Second Commit
+2723428 First Commit
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$ ^C
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV1 (master)
+$

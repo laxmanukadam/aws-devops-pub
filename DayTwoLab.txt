@@ -1,0 +1,311 @@
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2
+$ ls
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2
+$ git init
+Initialized empty Git repository in C:/AWSDevOpsLab/GitLabs/ProjectV2/.git/
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ ls
+Five.java.txt  Four.java.txt  One.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Five.java.txt
+        Four.java.txt
+        One.java.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git add .
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Five.java.txt
+        new file:   Four.java.txt
+        new file:   One.java.txt
+
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git commit -m "C1" .
+[master (root-commit) 80b893f] C1
+ 3 files changed, 21 insertions(+)
+ create mode 100644 Five.java.txt
+ create mode 100644 Four.java.txt
+ create mode 100644 One.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Three.java.txt
+        Two.java.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git add .
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Three.java.txt
+        new file:   Two.java.txt
+
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git commit -m "C2" .
+[master 301b759] C2
+ 2 files changed, 14 insertions(+)
+ create mode 100644 Three.java.txt
+ create mode 100644 Two.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git log --oneline
+301b759 (HEAD -> master) C2
+80b893f C1
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git branch dev
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git branch
+  dev
+* master
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git checkout dev
+Switched to branch 'dev'
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (dev)
+$ git status
+On branch dev
+nothing to commit, working tree clean
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (dev)
+$ git log
+commit 301b759c0a1cc7e7e6e260bdf2573c850c2be9f3 (HEAD -> dev, master)
+Author: zyx <zyx@gmail.com>
+Date:   Thu Sep 26 07:29:16 2024 +0530
+
+    C2
+
+commit 80b893f3af04e6e268973b507557708200701128
+Author: zyx <zyx@gmail.com>
+Date:   Thu Sep 26 07:27:59 2024 +0530
+
+    C1
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (dev)
+$ git log --oneline
+301b759 (HEAD -> dev, master) C2
+80b893f C1
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (dev)
+$ git status
+On branch dev
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Eight.java.txt
+        Seven.java.txt
+        Six.java.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (dev)
+$ git add Six.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (dev)
+$ git commit -m "d1" Six.java.txt
+[dev 118378a] d1
+ 1 file changed, 7 insertions(+)
+ create mode 100644 Six.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (dev)
+$ git add Seven.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (dev)
+$ git commit -m "d2" Seven.java.txt
+[dev 90eff7a] d2
+ 1 file changed, 7 insertions(+)
+ create mode 100644 Seven.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (dev)
+$ git add Eight.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (dev)
+$ git commit -m "d3" Eight.java.txt
+[dev 32de410] d3
+ 1 file changed, 7 insertions(+)
+ create mode 100644 Eight.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (dev)
+$ git log --oneline
+32de410 (HEAD -> dev) d3
+90eff7a d2
+118378a d1
+301b759 (master) C2
+80b893f C1
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (dev)
+$ git checkout master
+Switched to branch 'master'
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git log --oneline
+301b759 (HEAD -> master) C2
+80b893f C1
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git checkout dev
+Switched to branch 'dev'
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (dev)
+$ git log --oneline
+32de410 (HEAD -> dev) d3
+90eff7a d2
+118378a d1
+301b759 (master) C2
+80b893f C1
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (dev)
+$ git checkout master
+Switched to branch 'master'
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git log --oneline
+301b759 (HEAD -> master) C2
+80b893f C1
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$
+
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Nine.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git add Nine.java
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git commit -m "C3" Nine.java
+[master dd35ead] C3
+ 1 file changed, 7 insertions(+)
+ create mode 100644 Nine.java
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git log --oneline
+dd35ead (HEAD -> master) C3
+301b759 C2
+80b893f C1
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git merge dev
+Merge made by the 'ort' strategy.
+ Eight.java.txt | 7 +++++++
+ Seven.java.txt | 7 +++++++
+ Six.java.txt   | 7 +++++++
+ 3 files changed, 21 insertions(+)
+ create mode 100644 Eight.java.txt
+ create mode 100644 Seven.java.txt
+ create mode 100644 Six.java.txt
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git log --oneline
+099349c (HEAD -> master) Merge branch 'dev'
+dd35ead C3
+32de410 (dev) d3
+90eff7a d2
+118378a d1
+301b759 C2
+80b893f C1
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git checkout dev
+Switched to branch 'dev'
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (dev)
+$ git log --oneline
+32de410 (HEAD -> dev) d3
+90eff7a d2
+118378a d1
+301b759 C2
+80b893f C1
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (dev)
+$ git checkout master
+Switched to branch 'master'
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git log --oneline
+099349c (HEAD -> master) Merge branch 'dev'
+dd35ead C3
+32de410 (dev) d3
+90eff7a d2
+118378a d1
+301b759 C2
+80b893f C1
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (master)
+$ git checkout dev
+Switched to branch 'dev'
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (dev)
+$ git log --oneline
+32de410 (HEAD -> dev) d3
+90eff7a d2
+118378a d1
+301b759 C2
+80b893f C1
+
+Pooja@DESKTOP-MM2CNIT MINGW64 /c/AWSDevOpsLab/GitLabs/ProjectV2 (dev)
